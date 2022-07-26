@@ -1,0 +1,247 @@
+/* hero img */
+
+@media only screen and (max-width:768px){
+
+    .heroimg{
+        display: block;
+        margin: 7rem 1rem !important;
+    }
+    
+
+    .heroimg p{
+        font-size: 14px !important;
+    }
+    h1{
+        font-size: 30px !important;
+        font-weight: 700 !important;
+        letter-spacing: 1;
+    }
+
+    .heroimg2{
+        margin-top: 20px;
+    }
+    
+    .featured-img , #documentation {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 35px;
+    }
+
+    .featured , #whychoose{
+        display: block;
+    }
+
+    .featured2{
+        padding: 3rem 0rem;
+    }
+
+    .doc-head{
+        font-size: 20px !important;
+    }
+
+    .heroimg2 img , .featured img{
+       width: 300px ;
+    }
+
+    .main-btn , .main-btn-two{
+        font-size: 0.8rem;
+    }
+    .featured{
+        text-align: center !important;
+    }
+
+    i{
+        font-size: 19px !important;
+    }
+
+    div#navbarSupportedContent {
+        background: #f6f6f6;
+        padding: 2rem;
+        
+    }
+
+    li.nav-item a{
+        color: black !important;
+    } 
+
+    button.navbar-toggler.collapsed {
+        outline: none !important;
+        border: none !important;
+    }
+    button.navbar-toggler {
+        outline: none !important;
+        background: white !important;
+    }
+
+    .sticky{
+        position: relative;
+     }
+
+     /* token distribution */
+     .token-distribution{
+         margin: 0rem !important;
+     }
+
+     .token-distribution1 img{
+        width: 300px;
+    }
+
+    .tk1{
+        position: relative;
+        top: 13%;
+        right:  -5%;
+    }
+    .tk2{
+        position: relative;
+        top: 31%;
+        right:  -5%;
+    
+    }
+    .tk3{
+        position: relative;
+        top: 39%;
+        right:  -5%;
+    
+    }
+    .tk4{
+        position: relative;
+        top: 57%;
+        right:  -5%;
+    
+    }
+
+    .token-distribution2 span , .salesdistribution1 span{
+        font-size: 10px;
+    }
+    .token-distribution2 h2 , .salesdistribution1 h2{
+        font-size: 15px !important;
+    }
+
+   
+
+    /* sales token */
+    .salesdistribution{
+         display: grid;
+         grid-template-columns: 4fr 4fr;
+    }
+
+    .salesdistribution2 img{
+        width: 380px;
+    }
+   
+
+    .sd1{
+        position: relative;
+        top: 5%;
+        left:  230px;
+    }
+    .sd2{
+        position: relative;
+        top: 17%;
+        left:  160px;
+    
+    }
+    .sd3{
+        position: relative;
+        top: 27%;
+        left:  117px;
+    
+    }
+    .sd4{
+        position: relative;
+        top: 37%;
+        left:  80px;
+    
+    }
+
+    /* core team */
+    .coreteam , .advisoryboard{
+        display: block;
+    }
+    .coreteam div , .advisoryboard div{
+        margin: 1rem 0rem;
+    }
+
+    .coreteam i , .advisoryboard i{
+        font-size: 2rem !important;
+        margin: 1rem 0.5rem;
+    }
+
+    /* mobile app  */
+
+    .mobileapp{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        row-gap: 100px;
+        max-width: 100% !important;
+        text-align: center;
+        margin: 0 !important;
+    }
+
+    #mobile-section{
+        margin: 0 !important;
+    }
+
+    .mobileapp img{
+        max-width: 100%;
+    }
+    .mobileapp1 {
+        transform: translateY(0%) !important; 
+        margin: 0rem 2rem;
+    }
+
+/*  */
+
+/* faq strats */
+#navtab-ul{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+}
+
+.cards{
+    display: grid;
+    row-gap: 30px;
+}
+.card{
+    width: 100% !important;
+
+}
+/* faq ends */
+
+/* our community starts */
+.di-3 .fa-play{
+    left: 0px !important;
+    top: 00px;
+}
+
+i.fa.fa-telegram  {
+    left: 0px;
+}
+
+.di-3 .fa-apple{
+    top: 0px;
+    left: 0px;
+ }
+/* our community ends */
+
+
+    /* footer starts */
+    footer{
+        display: block !important;
+        column-gap: none !important;
+        margin:0rem 3rem 5rem 3rem;
+
+    }
+    footer div{
+        margin: 2rem 0rem;
+    }
+    footer ul{
+        margin: 0;
+        padding: 0;
+    }
+
+}
